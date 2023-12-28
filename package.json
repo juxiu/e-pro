@@ -2,8 +2,17 @@
   "name": "e-pro",
   "version": "1.0.0",
   "main": "index.js",
-  "private":true,
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.0",
+    "sass": "^1.69.5",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.10"
+  },
+  "dependencies": {
+    "vue": "^3.3.13"
   }
 }
